@@ -12,7 +12,7 @@ namespace Exercise11
 
             var dragons = new Dictionary<string, Dictionary<string, int[]>>();// this is just a comment
 
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());                            // input number
 
             for (int i = 0; i < n; i++)
             {
