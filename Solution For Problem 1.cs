@@ -15,8 +15,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             List<string> list = new List<string>();
-            int i = 4;
-            while (i-->0)
+            int a = 4;
+            while (a-->0)
             {
                 string input = Console.ReadLine().PadLeft(4, '0');
                 list.Add(input);
